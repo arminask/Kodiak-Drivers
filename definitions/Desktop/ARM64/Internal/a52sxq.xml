@@ -19,7 +19,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Drivers\Cellular" Name="qcipa7280.inf" ID="qcipa7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Drivers\LED" Name="qchwnled7280.inf" ID="qchwnled7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Drivers\Sensors" Name="qcSensors.inf" ID="qcSensors"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Drivers\Touch" Name="vhidmini.inf" ID="vhidmini"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Drivers\Touch" Name="fts5cu56a.inf" ID="fts5cu56a"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Drivers\Wlan" Name="qcwlan7280.inf" ID="qcwlan7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Extensions\Audio\ACDB" Name="qcacsp_crd7280.inf" ID="qcacsp_crd7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICESOC_QC7325A52SXQ\Extensions\Audio\AudMiniport" Name="qcaudminiportCRD_Extension7280.inf" ID="qcaudminiportCRD_Extension7280"/>
