@@ -72,6 +72,7 @@
 <!--             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\MBB" Name="qcmbbnetadapter_ext7280.inf" ID="qcmbbnetadapter_ext7280"/> -->
 <!--             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\IOMMU" Name="qciommuext7280.inf" ID="qciommuext7280"/> -->
 <!--             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Pmic" Name="qcpmicext7280.inf" ID="qcpmicext7280"/> -->
+	    <DriverPackageFile Path="$(mspackageroot)\components\QC7325\OEM\OEM.SOC_QC7325.SAMSUNG\Setup" Name="BypassNRO.inf" ID="BypassNRO"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
