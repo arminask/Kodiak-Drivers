@@ -29,8 +29,8 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Bluetooth" Name="qcbtfmuart_ext7280.inf" ID="qcbtfmuart_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Display" Name="qcdxext_idp7280.inf" ID="qcdxext_idp7280"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\HexagonLoader" Name="qcpilEXT7280.inf" ID="qcpilEXT7280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\SAR" Name="qsarconfig7280.inf" ID="qsarconfig7280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Sensors" Name="qcSensorsConfigCrd7280.inf" ID="qcSensorsConfigCrd7280"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\SAR" Name="qsarconfig7280.inf" ID="qsarconfig7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Sensors" Name="qcSensorsConfigCrd7280.inf" ID="qcSensorsConfigCrd7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Subsystems" Name="mcfg_subsys_ext7280.inf" ID="mcfg_subsys_ext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Subsystems" Name="qcsubsys_ext_adsp7280.inf" ID="qcsubsys_ext_adsp7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Extensions\Subsystems" Name="qcsubsys_ext_cdsp7280.inf" ID="qcsubsys_ext_cdsp7280"/>
@@ -65,11 +65,11 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\SOC\System" Name="qcsyscache7280.inf" ID="qcsyscache7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\SOC\VoltageCurrentMonitoring" Name="qcadc7280.inf" ID="qcadc7280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\ADCM" Name="qcadcm7280.inf" ID="qcadcm7280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\Device" Name="qcaucd7280.inf" ID="qcaucd7280"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\ADCM" Name="qcadcm7280.inf" ID="qcadcm7280"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\Device" Name="qcaucd7280.inf" ID="qcaucd7280"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\RPC" Name="qcadsprpc7280.inf" ID="qcadsprpc7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\RPC" Name="qcadsprpcd7280.inf" ID="qcadsprpcd7280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\Slimbus" Name="qcslimbus7280.inf" ID="qcslimbus7280"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Audio\Slimbus" Name="qcslimbus7280.inf" ID="qcslimbus7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Battery" Name="qcfgbcl7280.inf" ID="qcfgbcl7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry7280.inf" ID="qcbtaddvscregistry7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Camera" Name="qccamauxsensor7280.inf" ID="qccamauxsensor7280"/> -->
@@ -79,22 +79,22 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Camera" Name="qccamplatform7280.inf" ID="qccamplatform7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr7280.inf" ID="qc5gnrcoexmgr7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\CCID" Name="qcccidbridge7280.inf" ID="qcccidbridge7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagCSI" Name="qcdiagcsi7280.inf" ID="qcdiagcsi7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagRouter" Name="qcdiagrouter7280.inf" ID="qcdiagrouter7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DPL" Name="qcdplbridge7280.inf" ID="qcdplbridge7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagCSI" Name="qcdiagcsi7280.inf" ID="qcdiagcsi7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagRouter" Name="qcdiagrouter7280.inf" ID="qcdiagrouter7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DPL" Name="qcdplbridge7280.inf" ID="qcdplbridge7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\IPCRouter" Name="qcipcrouter7280.inf" ID="qcipcrouter7280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\MBB" Name="qcmbbnetadapter7280.inf" ID="qcmbbnetadapter7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\Mdm\Standby" Name="qcdeepstandbymdm7280.inf" ID="qcdeepstandbymdm7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\Mdm\Thermal" Name="qcthermalmdm7280.inf" ID="qcthermalmdm7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\ModemBridge" Name="qcmbrg7280.inf" ID="qcmbrg7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\RemoteAT" Name="qcremoteat7280.inf" ID="qcremoteat7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\MBB" Name="qcmbbnetadapter7280.inf" ID="qcmbbnetadapter7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\Mdm\Standby" Name="qcdeepstandbymdm7280.inf" ID="qcdeepstandbymdm7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\Mdm\Thermal" Name="qcthermalmdm7280.inf" ID="qcthermalmdm7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\ModemBridge" Name="qcmbrg7280.inf" ID="qcmbrg7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\RemoteAT" Name="qcremoteat7280.inf" ID="qcremoteat7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\RemoteFS" Name="qcremotefs7280.inf" ID="qcremotefs7280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\RmnetBridge" Name="qcrmnetbridge7280.inf" ID="qcrmnetbridge7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\RmnetBridge" Name="qcrmnetbridge7280.inf" ID="qcrmnetbridge7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\GPS" Name="qcgnss7280.inf" ID="qcgnss7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\HexagonLoader" Name="qcpilfilterext.inf" ID="qcpilfilterext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Subsystems" Name="qcpdsr.inf" ID="qcpdsr"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Subsystems" Name="qcsubsys7280.inf" ID="qcsubsys7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Subsystems" Name="qcSubsysThermalMgr.inf" ID="qcSubsysThermalMgr"/>
@@ -107,7 +107,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Camera\MIPICSI" Name="qccammipicsi_ext7280.inf" ID="qccammipicsi_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr_ext7280.inf" ID="qc5gnrcoexmgr_ext7280"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\IPA" Name="qcipaext7280.inf" ID="qcipaext7280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\MBB" Name="qcmbbnetadapter_ext7280.inf" ID="qcmbbnetadapter_ext7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\MBB" Name="qcmbbnetadapter_ext7280.inf" ID="qcmbbnetadapter_ext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\IOMMU" Name="qciommuext7280.inf" ID="qciommuext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Pmic" Name="qcpmicext7280.inf" ID="qcpmicext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\OEM\OEM.SOC_QC7325.SAMSUNG\Setup" Name="BypassNRO.inf" ID="BypassNRO"/>
