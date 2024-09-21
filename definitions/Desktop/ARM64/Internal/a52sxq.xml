@@ -98,10 +98,10 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Subsystems" Name="qcpdsr.inf" ID="qcpdsr"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Subsystems" Name="qcsubsys7280.inf" ID="qcsubsys7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Subsystems" Name="qcSubsysThermalMgr.inf" ID="qcSubsysThermalMgr"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USB" Name="qcusbcucsi7280.inf" ID="qcusbcucsi7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USBFn" Name="QcUsbFnSsFilter7280.inf" ID="QcUsbFnSsFilter7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USBFn" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USBHost" Name="QcXhciFilter7280.inf" ID="QcXhciFilter7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USB" Name="qcusbcucsi7280.inf" ID="qcusbcucsi7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USBFn" Name="QcUsbFnSsFilter7280.inf" ID="QcUsbFnSsFilter7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USBFn" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\USBHost" Name="QcXhciFilter7280.inf" ID="QcXhciFilter7280"/>
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Camera\CameraPlatform" Name="qccamplatform_ext7280.inf" ID="qccamplatform_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Camera\JPEGE" Name="qccamjpege_ext7280.inf" ID="qccamjpege_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Camera\MIPICSI" Name="qccammipicsi_ext7280.inf" ID="qccammipicsi_ext7280"/> -->
