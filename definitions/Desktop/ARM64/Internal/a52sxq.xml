@@ -78,7 +78,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Camera" Name="qccammipicsi7280.inf" ID="qccammipicsi7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Camera" Name="qccamplatform7280.inf" ID="qccamplatform7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr7280.inf" ID="qc5gnrcoexmgr7280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\CCID" Name="qcccidbridge7280.inf" ID="qcccidbridge7280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\CCID" Name="qcccidbridge7280.inf" ID="qcccidbridge7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagCSI" Name="qcdiagcsi7280.inf" ID="qcdiagcsi7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Drivers\Cellular\DiagRouter" Name="qcdiagrouter7280.inf" ID="qcdiagrouter7280"/>

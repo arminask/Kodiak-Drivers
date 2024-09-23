@@ -1,0 +1,12 @@
+[Drivers]
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS=""
+\components\Devices\Raphael\DEVICE.SOC_QC8150.RAPHAEL=""
+\components\Devices\Raphael\DEVICE.SOC_QC8150.RAPHAEL_MINIMAL=""
+\components\Devices\Raphael\GRAPHICS.SOC_QC8150.RAPHAEL_DESKTOP_WDDM26=""
+\components\QC8150=""
+
+[Apps]
