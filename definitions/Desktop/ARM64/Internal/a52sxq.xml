@@ -14,7 +14,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Camera\AVS" Name="qccamavs_ext7280.inf" ID="qccamavs_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Camera\FrontCamera" Name="qccamfrontsensor_extension7280.inf" ID="qccamfrontsensor_extension7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Camera\ISP" Name="qccamisp_ext7280.inf" ID="qccamisp_ext7280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Cellular" Name="qcipa7280.inf" ID="qcipa7280"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Cellular" Name="qcipa7280.inf" ID="qcipa7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\LED" Name="qchwnled7280.inf" ID="qchwnled7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Sensors" Name="qcSensors.inf" ID="qcSensors"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\A52sxq\DEVICE.SOC_QC7325.A52SXQ\Drivers\Touch" Name="FingerTipS556A.inf" ID="FingerTipS556A"/>
@@ -106,7 +106,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Camera\JPEGE" Name="qccamjpege_ext7280.inf" ID="qccamjpege_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Camera\MIPICSI" Name="qccammipicsi_ext7280.inf" ID="qccammipicsi_ext7280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr_ext7280.inf" ID="qc5gnrcoexmgr_ext7280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\IPA" Name="qcipaext7280.inf" ID="qcipaext7280"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\IPA" Name="qcipaext7280.inf" ID="qcipaext7280"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Cellular\MBB" Name="qcmbbnetadapter_ext7280.inf" ID="qcmbbnetadapter_ext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\IOMMU" Name="qciommuext7280.inf" ID="qciommuext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE\Extensions\Pmic" Name="qcpmicext7280.inf" ID="qcpmicext7280"/>
